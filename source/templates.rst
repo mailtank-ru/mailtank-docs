@@ -90,7 +90,7 @@ If
     {% if users %}
     <ul>
     {% for user in users %}
-        <li>{{ user.username|e }}</li>
+        <li>{{ user.username }}</li>
     {% endfor %}
     </ul>
     {% endif %}
