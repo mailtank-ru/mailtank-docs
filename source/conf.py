@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Mailtank documentation'
+project = u'Mailtank'
 copyright = u'2013, Mailtank developers'
 
 # The version info for the project you're documenting, acts as replacement for
