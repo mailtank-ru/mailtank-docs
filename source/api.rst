@@ -687,6 +687,18 @@ HTTP-заголовке `X-Auth-Token`.  Ключ предоставляет д�
             "id": "56929c1607"
         }
 
+.. http:delete:: /layouts/(str:id)
+
+    Удаляет шаблон.
+
+    .. sourcecode:: http
+
+        DELETE /layouts/1 HTTP/1.1
+
+    .. sourcecode:: http
+
+        HTTP/1.0 204 NO CONTENT
+
 .. http:post:: /base_layouts/
 
     Создаёт базовый шаблон.
@@ -713,6 +725,18 @@ HTTP-заголовке `X-Auth-Token`.  Ключ предоставляет д�
         {
             "id": "271f93f45e"
         }
+
+.. http:delete:: /base_layouts/(str:id)
+
+    Удаляет базовый шаблон.
+
+    .. sourcecode:: http
+
+        DELETE //base_layouts/w7312is HTTP/1.1
+
+    .. sourcecode:: http
+
+        HTTP/1.0 204 NO CONTENT
 
 Отписки
 +++++++
