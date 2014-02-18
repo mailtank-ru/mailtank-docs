@@ -5,4 +5,5 @@ Mailtank
     :maxdepth: 2
 
     api
+    webhooks
     templates
