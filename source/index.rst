@@ -7,3 +7,4 @@ Mailtank
     api
     webhooks
     templates
+    domains
